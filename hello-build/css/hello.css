@@ -1,0 +1,112 @@
+
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+}
+
+header,
+.card-deck,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto; /* this centers it*/
+}
+
+header,
+footer {
+  padding: 20px;
+  width: 960px;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+span {
+  color: #63b3ed;
+}
+
+
+h1 {
+  font-size: 125px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+}
+
+.card-deck h2,
+ul {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  padding: 16px 0 0;
+  /* top - left - right - bottom */
+}
+
+.card-deck ul li:last-child {
+  padding-bottom: 32px;
+}
+
+.hire-button {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.hire-button:link, .hire-button:visited {
+  background-color: #fff;
+  color: #8594ad;
+  border: 2px solid #dd6b20;
+}
+
+.hire-button:hover, .hire-button:active{
+  color: #fff;
+  background-color: #dd6b20;
+}
+
+header h2 {
+  padding-bottom: 80px;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edf2f7;
+}
+
+.card-deck section {
+  width: 300px;
+  background-color: #fff;
+}
+
+.card-deck h2 {
+  padding-top: 20px;
+}
+
+footer p {
+  font-style: italic;
+  color: #68778d;
+}
+
+/*  ---  Navigation behaviours --- */
+
+/* unvisited & visited link */
+a:link, a:visited  {
+  color: #68778d;
+}
+
+/* mouse over & selected link */
+a:hover, a:active {
+  color: #000;
+}
